@@ -24,4 +24,8 @@ class GooglePage extends BasePage{
         browserNavigation.isElementDisplayed(googleSearchBox)
     }
 
+    void enterSearchText(String sText){
+        enterText("[class='gLFyf gsfi']", sText)
+    }
+
 }
