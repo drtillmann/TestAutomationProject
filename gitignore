@@ -43,3 +43,6 @@
 /lib/selenium-core-1.0-20080914.225453.jar
 /lib/selenium-server-coreless-1.0-20081010.060147.jar
 /lib/servlet-api-2.4.jar
+/build/
+/.gradle/
+/.idea/
