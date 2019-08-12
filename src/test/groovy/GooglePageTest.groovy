@@ -10,5 +10,6 @@ class GooglePageTest{
         googlePage.go()
         assert googlePage.at()
         assert googlePage.isSearchBoxDisplayed()
+        googlePage.enterSearchText("Amazon")
     }
 }
