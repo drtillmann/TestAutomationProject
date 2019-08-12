@@ -1,4 +1,4 @@
-# Default ignored files
+
 /.gradle/4.10.3/fileChanges/last-build.bin
 /.gradle/4.10.3/fileContent/fileContent.lock
 /.gradle/4.10.3/fileHashes/fileHashes.bin
@@ -14,6 +14,7 @@
 /.idea/misc.xml
 /.idea/uiDesigner.xml
 /.idea/vcs.xml
+/.idea/workspace.xml
 /build/classes/groovy/main/BasePages/BasePage.class
 /build/classes/groovy/main/GooglePages/GooglePage.class
 /build/classes/groovy/main/Selenium/BaseSelenium.class
