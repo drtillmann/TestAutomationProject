@@ -5,7 +5,7 @@ import BasePages.BasePage
 class GooglePage extends BasePage{
 
     private final String url = "https://www.google.com/"
-    private final String googleSearchBox = "[jsname='vdLsw']"
+    private final String googleSearchBox = "[class='gLFyf gsfi']"
 
     GooglePage(){
         super()
@@ -25,7 +25,7 @@ class GooglePage extends BasePage{
     }
 
     void enterSearchText(String sText){
-        enterText("[class='gLFyf gsfi']", sText)
+        enterText(googleSearchBox, sText)
     }
 
 }
