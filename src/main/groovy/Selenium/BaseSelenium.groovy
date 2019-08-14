@@ -8,7 +8,7 @@ class BaseSelenium {
     public WebDriver driver
 
     BaseSelenium(){
-        System.setProperty("webdriver.chrome.driver","..\\gradleselenium\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
         driver = new ChromeDriver()
     }
 
